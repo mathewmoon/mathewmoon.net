@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <title>MathewMoon.net</title>
+  <meta name="description" content="Personal website for Mathew Moon">
+  <meta name="author" content="Stefan Thomas">
+  <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css"/>
+
+  <link rel="stylesheet" href="main.css">
+  <script>
+    $(document).ready(function(){
+      var t = 3000;
+      $('h1').fadeIn(t);
+      $('#links').fadeIn(t);
+      $('#separator').fadeIn(t)
+     });
+  </script>
+
+</head>
+
+<body  style="background-image:url(bg.jpg)" >
+  <div id="header">
+	  <h1>Mathew Moon</h1>
+	  <img src="line.png" id="separator" />
+	  <img src="moon.png" id="moon" />
+  </div>
+  <div id="links">
+      <a href="https://github.com/mathewmoon" target=”_blank” class="github icons"><img src="github.png" class="icons"></a>
+      <a href="https://www.linkedin.com/in/bash1liner/" target=”_blank” class="linkedin icons"><img src="linkedin.png" class="icons"></a>
+      <a href="https://www.instagram.com/cultleader_reverand_moon/" target=”_blank” class="instagram icons"><img src="instagram.png" class="icons"></a>
+  </div>
+
+</body>
+</html>

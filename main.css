@@ -1,0 +1,56 @@
+
+html {
+  height: 100%;
+}
+body {
+  background-image:url('bg.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+
+#separator{
+  width: 65%;
+  height: 10%;
+}
+
+#header{
+  margin-top: 2em;
+  text-align:center;
+}
+
+#separator{
+  display: none;
+  margin: 0px;
+}
+
+#moon{
+  position: absolute;
+  display: block;
+  right: 50px;
+  top: 25%;
+  max-height: 250px;
+}
+
+h1 {
+  padding: 0px;
+  font-size: 2em;
+  font-family: 'titilliumlight', sans-serif;
+  color: #fff;
+  margin: 0px;
+  display: none;
+}
+
+#links{
+  display: none;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 4%;
+}
+
+img.icons{
+  margin: 20px;
+  max-width: 65px;
+}
